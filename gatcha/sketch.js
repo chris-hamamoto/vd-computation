@@ -29,16 +29,7 @@ function setup() {
 }
 
 function draw() {
-  if(n === 1){
-    background('yellow'); 
-  } 
-  if(n === 2) {
-    background('red');
-  }
-  if(n === 3) {
-    background('green');
-  }
-  
+  background('yellow');   
 
   image(body, 0, 0);
   image(face, 132, 134)
